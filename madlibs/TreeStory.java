@@ -9,9 +9,16 @@ public class TreeStory {
 		verb- An Action
 		adjective- A description used to modify or describe a noun!
 		*/
-		String name = console.readLine("Enter your name: ");
-		String adjective = console.readLine("Enter an adjective: ");
-		console.printf("%s is very %s \n", name, adjective); 
+		String name = console.readLine("Enter a name:  ");
+		String adjective = console.readLine("Enter an adjective:  ");
+		String noun = console.readLine("Enter a noun:  ");
+		String adverb = console.readLine("Enter an adverb:  ");
+		String verb = console.readLine("Enter a verb ending with -ing:  ");
+
+		console.printf("Your TreeStory:\n--------------\n");
+		console.printf("%s is a %s %s\n", name, adjective, noun);
+		console.printf("They are always %s %s \n", adverb, verb);
+
 
 
 	}
