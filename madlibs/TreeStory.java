@@ -1,0 +1,21 @@
+import java.io.Console;
+
+public class TreeStory {
+	
+	public static void main(String[] args){
+		Console console = System.console();
+	/* Some Terms:
+		noun- Person, place or thing
+		verb- An Action
+		adjective- A description used to modify or describe a noun!
+		*/
+		String name = console.readLine("Enter your name: ");
+		String adjective = console.readLine("Enter an adjective: ");
+		console.printf("%s is very %s \n", name, adjective); 
+
+
+	}
+
+
+
+}
