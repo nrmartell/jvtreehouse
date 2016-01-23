@@ -1,7 +1,7 @@
 var person = {
-  name : 'Sarah',
+  name : 'Natalie',
   country : 'US',
-  age : 35,
+  age : 27,
   treehouseStudent : true,
   skills : ['JavaScript', 'HTML', 'CSS']
 };
@@ -11,3 +11,6 @@ function print(message) {
   div.innerHTML = message;
 }
 
+var message = '<p> Hello. My name is ' + person.name + 'and my skills are ' + person.skills + '</p>';
+
+print(message);
